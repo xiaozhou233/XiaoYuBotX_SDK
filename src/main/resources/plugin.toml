@@ -1,0 +1,3 @@
+PluginName = "EchoPlugin"
+PluginVersion = "1.0.0"
+MainClass = "org.example.plugin.Main"

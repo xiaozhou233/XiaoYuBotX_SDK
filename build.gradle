@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example.plugin'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // 导入XiaoYuBotX 的SDK
+    implementation files('sdk/sdk.jar')
+}
